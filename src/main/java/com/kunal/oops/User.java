@@ -5,9 +5,20 @@ public class User {
     private String _membership;
     public boolean age;
 
+    public String toString(){
+        return get_name()+" "+get_membership();
+    }
     public User(String name, String membership) {
         set_name(name);
         set_membership(membership);
+    }
+
+    public boolean equals (User u2){
+        if(get_name()==u2.get_name() && get_membership() == u2.get_membership()){
+            return true ;
+        } else {
+            return false ;
+        }
     }
 
     public User() {
