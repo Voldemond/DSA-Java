@@ -1,2 +1,16 @@
-package main.java.com.kunal.oops;public class oop {
+package main.java.com.kunal.oops;
+
+public class oop {
+    public static void main (String args[]){
+        System.out.println("hello");
+
+        User u = new User();
+        u.set_name("kunal");
+        u.set_membership(User.Membership.Gold);
+
+        System.out.println(u.get_name());
+        System.out.println(u.get_membership());
+
+
+    }
 }
