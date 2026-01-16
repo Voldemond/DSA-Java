@@ -21,5 +21,9 @@ public class oop {
             System.out.println(users.get(i).get_name());
         }
        // System.out.println(users.get(0).get_name());
+
+        for(User u : users){
+            System.out.println(u.get_name());
+        }
             }
 }
