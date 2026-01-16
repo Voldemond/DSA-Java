@@ -5,6 +5,10 @@ public class User {
     private String _membership;
     public boolean age;
 
+    public User(String name) {
+        set_name(name);
+    }
+
     public String toString(){
         return get_name()+" "+get_membership();
     }
