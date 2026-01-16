@@ -5,9 +5,10 @@ public class oop {
         System.out.println("hello");
 
         User u = new User("Caleb","Silver");
+        User u2 = new User();
 
-        System.out.println(u.get_name());
-        System.out.println(u.get_membership());
+        System.out.println(u2.get_name());
+        System.out.println(u2.get_membership());
 
 
     }

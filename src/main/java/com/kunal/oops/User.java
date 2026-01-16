@@ -10,6 +10,10 @@ public class User {
         set_membership(membership);
     }
 
+    public User() {
+
+    }
+
     void set_name(String name){
         System.out.println("Logging to script file ");
         _name = name ;
