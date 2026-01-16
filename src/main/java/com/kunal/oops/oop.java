@@ -14,6 +14,12 @@ public class oop {
                // u.set_name("Kunal");
         ArrayList<User> users = new ArrayList<User>();
         users.add(new User("Kunal"));
-        System.out.println(users.get(0).get_name());
+        users.add(new User("kumkum"));
+        users.add(new User("dear"));
+
+        for(int i=0;i< users.size();i++){
+            System.out.println(users.get(i).get_name());
+        }
+       // System.out.println(users.get(0).get_name());
             }
 }

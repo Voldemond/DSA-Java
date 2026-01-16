@@ -30,7 +30,7 @@ public class User {
     }
 
     void set_name(String name){
-        System.out.println("Logging to script file ");
+        //System.out.println("Logging to script file ");
         _name = name ;
     }
     String get_name(){
