@@ -5,6 +5,11 @@ public class User {
     private String _membership;
     public boolean age;
 
+    public User(String name, String membership) {
+        set_name(name);
+        set_membership(membership);
+    }
+
     void set_name(String name){
         System.out.println("Logging to script file ");
         _name = name ;

@@ -4,9 +4,7 @@ public class oop {
     public static void main (String args[]){
         System.out.println("hello");
 
-        User u = new User();
-        u.set_name("kunal");
-        u.set_membership(User.Membership.Gold);
+        User u = new User("Caleb","Silver");
 
         System.out.println(u.get_name());
         System.out.println(u.get_membership());
