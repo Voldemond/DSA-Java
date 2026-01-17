@@ -12,17 +12,19 @@ public class oop {
 
             //    User u = new User();
                // u.set_name("Kunal");
-        ArrayList<User> users = new ArrayList<User>();
-        users.add(new User("Kunal"));
-        users.add(new User("kumkum"));
-        users.add(new User("dear"));
+        //User.admins = new ArrayList<User>();
 
-        for(int i=0;i< users.size();i++){
-            System.out.println(users.get(i).get_name());
+        User.admins = new ArrayList<User>();
+        User.admins.add(new User("Kunal"));
+        User.admins.add(new User("kumkum"));
+        User.admins.add(new User("dear"));
+
+        for(int i=0;i< User.admins.size();i++){
+            System.out.println(User.admins.get(i).get_name());
         }
        // System.out.println(users.get(0).get_name());
 
-        for(User u : users){
+        for(User u : User.admins){
             System.out.println(u.get_name());
         }
             }

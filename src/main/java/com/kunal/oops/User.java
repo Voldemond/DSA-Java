@@ -1,8 +1,12 @@
 package main.java.com.kunal.oops;
 
+import java.util.List;
+
 public class User {
     private String _name;
     private String _membership;
+
+    public static List<User> admins;
     public boolean age;
 
     public User(String name) {
