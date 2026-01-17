@@ -7,17 +7,22 @@ public class oop {
     public static void main (String args[]){
 
             Student s = new Student();
-        System.out.println(s.get_verified());
-        s.set_membership("Gold");
-        System.out.println(s.get_membership());
-        /*
+            s.set_name("Student");
+            Teacher t = new Teacher();
+            s.set_name("Teacher");
+
+
         User.admins = new ArrayList<User>();
+        User.admins.add(s);
+        User.admins.add(t);
         User.admins.add(new User("Kunal"));
         User.admins.add(new User("kumkum"));
         User.admins.add(new User("dear"));
 
-        User.print_admin_names();*/
+        //User.print_admin_names();
 
-
+        for (User u :User.admins){
+            u.verify();
+        }
             }
 }
