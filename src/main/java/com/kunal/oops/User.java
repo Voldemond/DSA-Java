@@ -9,6 +9,12 @@ public class User {
     public static List<User> admins;
     public boolean age;
 
+    public static void print_admin_names(){
+        for(User u : admins){
+            System.out.println(u.get_name());
+        }
+    }
+
     public User(String name) {
         set_name(name);
     }
